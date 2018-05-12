@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtSrNo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/blue"
+            android:padding="3dp"
+            android:text="@string/srNo" />
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:background="@color/grey"></LinearLayout>
+
+        <TextView
+            android:id="@+id/txtAdate"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:textSize="@dimen/text_size"
+            android:maxLines="1"
+            android:padding="3dp"
+            android:text="@string/availableDate" />
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:background="@color/grey"></LinearLayout>
+
+        <TextView
+            android:id="@+id/txtPFrom"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:padding="3dp"
+            android:textSize="@dimen/text_size"
+            android:text="@string/from" />
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:background="@color/grey"></LinearLayout>
+
+        <TextView
+            android:id="@+id/txtPTo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:textSize="@dimen/text_size"
+            android:padding="3dp"
+            android:text="@string/to" />
+    </LinearLayout>
+
+</LinearLayout>

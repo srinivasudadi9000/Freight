@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+    <string name="app_name">தொடர்புகொள்ள</string>
+
+    <!--SIGNIN SIGNUP -->
+
+
+    <string name="email">மின்னஞ்சல் ஐடி" க்கு</string>
+
+    <string name="wait">காத்திருக்கவும் ...</string>
+
+    <string name="full_name">முழு பெயர்</string>
+
+    <string name="name">பெயர்</string>
+
+    <string name="email_OTP">சிவகாசி உங்கள் மின்னஞ்சல் ஐடி அனுப்பப்பட்டுள்ளது</string>
+
+    <string name="num_OTP">சிவகாசி உங்கள் மொபைல் எண்ணை அனுப்பப்பட்டுள்ளது.</string>
+
+    <string name="action_edit">திருத்து</string>
+
+    <string name="action_comments">கருத்துக்கள்</string>
+
+    <string name="mob_number">மொபைல் எண்</string>
+
+    <string name="password">கடவுச்சொல்</string>
+
+    <string name="conform_password">கடவுச்சொல்லை உறுதிப்படுத்துக</string>
+
+    <string name="forget_password">கடவுச்சொல்லை மறந்து விட்டீர்களா?</string>
+
+    <string name="create_account">ஒரு கணக்கை உருவாக்கு</string>
+
+    <string name="cargo_provider">சரக்கு வழங்குநர்</string>
+
+    <string name="truck_owner">டிரக் உரிமையாளர்</string>
+
+    <string name="who_u_r">நீ யார்?</string>
+
+    <string name="signin">உள்நுழை</string>
+
+    <string name="signup">பதிவுp</string>
+
+    <string name="done">முடிந்தது</string>
+
+    <string name="call">கால்</string>
+
+    <string name="delete">நீக்கு</string>
+
+    <string name="add_new_truck">புதிய டிரக் சேர்</string>
+
+    <string name="delete_account">பயனர் கணக்கு நீக்கு</string>
+
+    <string name="ok">சரி</string>
+
+   <!-- <string name="chemical">கெமிக்கல்ஸ்</string>
+
+    <string name="food_agri">உணவு மற்றும் வேளாண் தயாரிப்புகள்</string>
+
+    <string name="refrigrated">குளிரூட்டப்பட்ட தயாரிப்புகள்</string>
+
+    <string name="cod">ODC</string>
+
+    <string name="others">தி அதர்ஸ்</string>
+
+    <string name="trailers">Trailor</string>
+
+    <string name="open_body">திறந்த உடல்</string>
+
+    <string name="closed_body">மூடப்பட்ட உடல்</string>
+
+    <string name="cold_truck">குளிர் டிரக்</string>
+
+    <string name="container">கொள்கலன்</string>-->
+
+    <string name="message_sms">நாங்கள் மேலே எண்ணுக்கு சரிபார்ப்பு குறியீட்டுடன் கூடிய SMS அனுப்பியுள்ளோம்</string>
+
+    <string name="payment">கொடுப்பனவு</string>
+
+    <string name="activation_msg">செயல்படுத்தும் குறியீட்டை உள்ளிடவும் மனித ஆற்றலால்</string>
+
+    <string name="logOut">வெளியேறு</string>
+
+    <string name="request">வேண்டுகோள்</string>
+
+    <string name="availableDate">கிடைக்கும் தேதி</string>
+
+    <string name="already_have_account">ஏற்கனவே ஒரு கணக்கு உள்ளதா?</string>
+
+    <!--Load Details-->
+
+
+    <string name="load_category">சுமை வகை</string>
+
+    <string name="load_capacity">சுமை திறன் (டன்களில்)</string>
+
+    <string name="load_description"> சுமை விளக்கம் </string>
+
+    <string name="total_cash">மொத்த கேஷ்</string>
+
+    <string name="remaining_cash">மீதமுள்ள கேஷ்</string>
+
+    <string name="date">தேதி</string>
+
+    <string name="from">இருந்து</string>
+
+    <string name="id">ஐடி</string>
+
+    <string name="start_point">தொடங்கி பாயிண்ட்</string>
+
+    <string name="end_point">இலக்கு பாயிண்ட்</string>
+
+    <string name="to">என்று</string>
+
+    <string name="ftl">FTL/LTL</string>
+
+    <string name="f_tl">FTL</string>
+
+    <string name="l_tl">LTL</string>
+
+    <string name="weight">எடை (டன்களில்)</string>
+
+    <string name="search">தேடல்</string>
+
+    <string name="srNo">ஐடி</string>
+
+    <string name="post_load">போஸ்ட் சுமை</string>
+
+    <string name="load_board">சுமை போர்டு</string>
+
+    <string name="load_details">சுமை விவரங்கள்</string>
+
+    <string name="order_details">ஆர்டர் விவரங்கள்</string>
+
+    <string name="my_loads">என் மூட்டை மூட்டையாக</string>
+
+    <string name="my_trucks">என் டிரக்குகள்</string>
+
+        <!--Truck Details-->
+
+
+        <string name="post_truck">போஸ்ட் டிரக்</string>
+
+    <string name="category_type">வகை வகை</string>
+
+    <string name="type_of_truck">டிரக் வகை</string>
+
+    <string name="type_of_load">சுமை வகை</string>
+
+    <string name="truck_description">டிரக் விளக்கம்</string>
+
+    <string name="clear">அழி</string>
+
+    <string name="about">பற்றி</string>
+
+    <string name="terms_condition">விதிமுறைகள் மற்றும் சீரமைப்பில்</string>
+
+    <string name="toll_free_no">கட்டணமில்லா எண்</string>
+
+    <string name="halting_charges">நிறுத்தப்படுகிறது கட்டணங்கள்</string>
+
+    <string name="MyOrder">என் ஆணைகள்</string>
+
+    <string name="MyLoads">என் மூட்டை மூட்டையாக</string>
+
+    <string name="MyTrips">என் பயணங்கள்</string>
+
+    <string name="MyTrips_Details">பயணம் விவரங்கள்</string>
+
+    <string name="GRANT">கிராண்ட்</string>
+
+    <string name="runtime_permissions_txt">பயன்பாட்டு அமைப்புகளிலிருந்து அனைத்து அனுமதிகளை இயக்கவும்</string>
+
+    <string name="edit_mag">அது ஏற்கனவே பதிவு செய்யப்பட்டுள்ளது ஏனெனில் உங்கள் டிரக் விவரங்கள் திருத்த முடியாது</string>
+
+    <string name="edit_mag_order">அது ஏற்கனவே பதிவு இதை உங்களால் ஆர்டர் விவரங்கள் திருத்த முடியாது </string>
+
+    <string name="add_correct_address"> சரியான மூல மற்றும் இலக்கு முகவரியைச் செருகவும் </string>
+
+    <string name="MyTruck">என் டிரக்குகள்</string>
+
+    <string name="Edit_Load">திருத்து சுமை</string>
+
+    <string name="profile">சுயவிவர</string>
+
+    <string name="add_photo">புகைப்பட சேர்</string>
+
+    <string name="choose_from_gallery">தேர்வு தொகுப்பு இருந்து</string>
+
+    <string name="select_option">விருப்பத் தேர்வு</string>
+
+    <string name="take_photo">புகைப்படம் எடு</string>
+
+    <string name="want_to_delete_account">நீங்கள் உண்மையில் உங்கள் சுயவிவர நீக்க விரும்புகிறீர்களா?</string>
+
+    <string name="owner_bank_details">பாங்க் விவரங்கள்</string>
+
+    <string name="charge">கி.மீ. ஒன்றுக்கு) கட்டணங்கள்</string>
+
+    <string name="truck_board">டிரக் போர்டு</string>
+
+    <string name="my_profile">எனது சுயவிவரம்</string>
+
+    <string name="driver_detail">டிரைவர் விவரங்கள்</string>
+
+    <string name="truck_detail">டிரக் விவரங்கள்</string>
+
+    <string name="vehicle_reg_copy">வாகன தேர்வு பதிவு நகல்</string>
+
+    <string name="upload">பதிவேற்று</string>
+
+    <string name="license_number">உரிம எண்</string>
+
+    <string name="license_issue">உரிமம் நகல்</string>
+
+    <string name="truck_image">டிரக் தேர்வு படத்தை</string>
+
+    <string name="driver_image">இயக்கி தேர்வு படத்தை</string>
+
+    <string name="insurance_provider">தேர்வு காப்பீடு படத்தை</string>
+
+    <string name="load_pass">(டன்களில்) கடந்து சுமை</string>
+
+    <string name="license_Issue_City">உரிமம் சிக்கல் இருப்பிடத்தில் (நகரம்)</string>
+
+    <string name="city">சிட்டி</string>
+
+    <string name="state">மாநில</string>
+
+    <string name="panadharno">நிரந்தர கணக்கு எண் / ஆதார் அட்டை இல்லை</string>
+
+    <string name="address">ஸ்ட்ரீட் பெயர்</string>
+
+    <string name="pin">பின்கோடு</string>
+
+    <string name="land_mark">தனித்துவமான</string>
+
+    <string name="emergency_number">அவசர தொடர்பு எண்</string>
+
+    <string name="owner_detail">சொந்தக்காரர் விவரங்கள்</string>
+
+    <string name="truck_number">டிரக் எண்</string>
+
+    <string name="truck_reg_number">டிரக் பதிவு எண்</string>
+
+    <string name="bank_detail">வங்கி விரிவாக</string>
+
+    <string name="ifsc">என்ன குறியீடு</string>
+
+    <string name="next">அடுத்து</string>
+
+    <string name="Bank_Details">பாங்க் விவரங்கள்</string>
+
+    <string name="account_no">கணக்கு எண்</string>
+
+    <string name="account_name">கணக்கின் பெயர்</string>
+
+    <string name="bank_name">வங்கிப் பெயர்</string>
+
+    <string name="submit">சமர்ப்பி</string>
+
+    <string name="cancel">நீக்கு</string>
+
+    <string name="comment_review">என்ன இந்த ட்ரிப்பில் பற்றி யோசிக்க எங்களிடம் சொல்லுங்கள்.</string>
+
+    <string name="track_order">ட்ராக்</string>
+
+    <string name="edit">திருத்து</string>
+
+    <string name="verify">சரிபார்க்கவும்</string>
+
+    <string name="completed">முடிக்கப்பட்ட</string>
+
+    <string name="edit_truck">டிரக் திருத்து</string>
+
+    <string name="up_coming">எதிர்வரும்</string>
+
+    <string name="running">இயக்குதல்</string>
+
+    <string name="no_comments">இல்லை கருத்துகள் கிடைக்க</string>
+
+    <string name="review_added">விமர்சனம் சேர்க்கப்பட்டது வெற்றிகரமாக</string>
+
+    <string name="add_review">விமர்சனம் சேர்</string>
+
+    <string name="start_trip">ஸ்டார்ட் ட்ரிப்</string>
+
+    <string name="continue_trip">பயணம் தொடரவும்</string>
+
+    <string name="comment">கருத்து</string>
+
+    <string name="select_language">தேர்வு மொழி</string>
+
+    <string name="sent_request">அனுப்பிய கோரிக்கைகள்</string>
+
+    <string name="received_request">பெறப்பட்டது கோரிக்கைகள்</string>
+
+    <string name="english">English</string>
+
+    <string name="bengali">বাঙালি</string>
+
+    <string name="gujarati">ગુજરાતી</string>
+
+    <string name="hindi">हिंदी</string>
+
+    <string name="kannada">ಕನ್ನಡ</string>
+
+    <string name="malayalam">മലയാളം</string>
+
+    <string name="punjabi">ਪੰਜਾਬੀ ਦੇ</string>
+
+    <string name="telugu">తెలుగు</string>
+
+    <string name="tamil">தமிழ்</string>
+
+
+
+    <string-array name="language">
+
+        <item>@string/english</item>
+
+        <item>@string/bengali</item>
+
+        <item>@string/gujarati</item>
+
+        <item>@string/hindi</item>
+
+        <item>@string/kannada</item>
+
+        <item>@string/malayalam</item>
+
+        <item>@string/punjabi</item>
+
+        <item>@string/tamil</item>
+
+        <item>@string/telugu</item>
+
+    </string-array>
+
+    <string name="halting_charges_per_day">ஒரு நாளுக்கான நிறுத்தப்படுகிறது கட்டணங்கள் </string>
+
+    <string name="one_three_days">1 முதல் 3 நாட்களில்</string>
+
+    <string name="four_six_days">4முதல் 6 நாட்களில்</string>
+
+    <string name="six_days"> >6 நாட்களில்</string>
+
+    <string name="nine_T">9 டி</string>
+
+    <string name="sixteen_fifteen_T">16டி/15டி</string>
+
+    <string name="tweentyOne_tweenty_T">21டி/20டி</string>
+
+    <string name="tweentyFive_tweentyFour_T">25டி/24டி</string>
+
+    <string name="tweentySeven_tweentyEight_T">27டி/28டி</string>
+
+    <string name="tweenty_tweentyFour_FT">20ft SAC/24ft SAC</string>
+
+    <string name="thirtyTwo_FT">32ft SAC</string>
+
+    <string name="thirtyTwo_FT_MAC">32ft MAC</string>
+
+    <string name="six">600.00</string>
+
+    <string name="eight">800.00</string>
+
+    <string name="ten">1000.00</string>
+
+    <string name="twelve">1200.00</string>
+
+    <string name="sixteen">1600.00</string>
+
+    <string name="seven">700.00</string>
+
+    <string name="nine">900.00</string>
+
+    <string name="fifteen">1500.00</string>
+
+    <string name="eighteen">1800.00</string>
+
+    <string name="twenty_two">2200.00</string>
+
+    <string name="twenty_four">2400.00</string>
+
+    <string name="twenty_eight">2800.00</string>
+
+    <string name="twenty">2000.00</string>
+
+        <!-- Truck ERROR MESSAGES-->
+
+        <string name="err_msg_driver_Image">இயக்கி படத்தை அமை</string>
+
+    <string name="err_msg_driver_name">இயக்கி படத்தை அமை</string>
+
+    <string name="err_msg_correct_otp">zரியான OTP ஐ உள்ளிடுக</string>
+
+    <string name="err_msg_driver_number">இயக்கி தொடர்பு எண் உள்ளிடவும்</string>
+
+    <string name="err_msg_Truck_Number">டிரக் எண்ணை சேர்க்கவும்</string>
+
+    <string name="err_msg_Truck_RegNumber">டிரக் பதிவு எண் உள்ளிடவும்</string>
+
+    <string name="err_msg_Ins_Provider">காப்பீடு வழங்குநர் மற்றும் செல்லுபடியாகும் உள்ளிடவும் </string>
+
+    <string name="err_msg_Load_Passing">சுமை கடந்து உள்ளிடவும்</string>
+
+    <string name="err_msg_owner_name">உரிமையாளர் பெயரை உள்ளிடவும்</string>
+
+    <string name="err_msg_owner_city">நகரம் உள்ளிடவும்</string>
+
+
+    <string name="err_msg_owner_number">இயக்கி நகரத்தை உள்ளிடவும்</string>
+
+    <string name="err_msg_owner_PanNo"> உரிமையாளர் நிரந்தர கணக்கு எண் / ஆதார் கார்டு இல்லை படத்தை தேர்ந்தெடுக்கவும்</string>
+
+    <string name="err_msg_owner_address">உரிமையாளர் முகவரியை உள்ளிடவும்</string>
+
+    <string name="err_msg_account_name"> உரிமையாளர் கணக்கு பெயரை உள்ளிடு</string>
+
+    <string name="err_msg_account_number">உரிமையாளர் கணக்கு எண் உள்ளிடவும்</string>
+
+    <string name="err_msg_owner_bank_ifsc_code">வங்கி Code என்ன குறியீட்டை உள்ளிடவும் </string>
+
+    <string name="err_msg_bank_name">வங்கி பெயரை உள்ளிடவும்</string>
+
+        <!-- ERROR MESSAGES-->
+
+
+        <string name="err_msg_email">மின்னஞ்சல் ஐடியை உள்ளிடவும்.</string>
+
+    <string name="err_msg_sign">ஈமெயிலில் ஐடி அல்லது ஒரு OTP பெற மொபைல் எண்ணை உள்ளிடவும் </string>
+
+    <string name="err_msg_sign_in">நீங்கள் மட்டுமே சரியான மின்னஞ்சல் ஐடி அல்லது மொபைல் எண்ணை உள்ளிடலாம்</string>
+
+    <string name="err_msg_name">பெயரை உள்ளிடுக</string>
+
+    <string name="err_msg_mob">தயவு செய்து 10 இலக்க செல்லுபடியாகும் எண்ணா நுழைய</string>
+
+    <string name="or">அல்லது</string>
+
+    <string name="err_msg_emg_mob">அவசர மொபைல் எண்ணை உள்ளிடவும்</string>
+
+    <string name="err_msg_password">கடவுச்சொல்லை உள்ளிடவும்</string>
+
+    <string name="err_msg_conf_password">கடவுச்சொற்கள் பொருந்தவில்லை</string>
+
+    <string name="err_msg_city">நகரத்தை உள்ளிடவும்</string>
+
+    <string name="err_acc_exit">இந்த மின்னஞ்சல் ஐடி ஏற்கனவே உள்ளது</string>
+
+    <string name="err_mob_no_exit">இது Mobile எண் ஏற்கனவே உள்ளது</string>
+
+    <string name="err_agree_terms"> பதிவு செய்ய நிபந்தனைகளை ஏற்க வேண்டும்</string>
+
+    <string name="err_update_fail">சுயவிவர புதுப்பித்தல் தோல்வியடைந்தது. மீண்டும் முயற்சிக்கவும் </string>
+
+    <string name="err_msg_who_u_r">நீங்கள் யார் தேர்ந்தெடுக்கவும்?</string>
+
+    <string name="networkError">நெட்வொர்க் பிழை! இந்த சாதனம் வலையமைப்பில் உறுதிப்படுத்தவும் </string>
+
+    <!--Load Post error messages-->
+
+
+    <string name="err_msg_date">தேதியை உள்ளிடவும்</string>
+
+    <string name="err_msg_from">தெரு முகவரியை உள்ளிடவும்</string>
+
+    <string name="err_msg_landmark">தனித்துவமான உள்ளிடவும்</string>
+
+    <string name="err_msg_charges">கட்டணங்கள் உள்ளிடவும்</string>
+
+    <string name="err_msg_state">மாநில உள்ளிடவும்</string>
+
+    <string name="err_msg_pin">உள்ளிடவும்</string>
+
+    <string name="err_msg_load_category">சுமை வகை தேர்ந்தெடுக்கவும்</string>
+
+    <string name="err_msg_load_capacity">சுமை திறன் தேர்வு</string>
+
+    <string name="err_msg_ftl_ltl">தேர்வு FTL/LTL</string>
+
+    <string name="err_msg_weight">டன் எடை உள்ளிடவும்</string>
+
+    <string name="err_msg_truck_type">டிரக் வகை தேர்ந்தெடுக்கவும்</string>
+
+    <string name="fail_msg">பதிவு வெளியிட முடியாது</string>
+
+    <string name="success_msg">பதிவு வெற்றிகரமாக சேர்க்கப்பட்டது</string>
+
+    <string name="edit_success_msg">பதிவு வெற்றிகரமாக சேர்க்கப்பட்டது</string>
+
+    <string name="edit_fail_msg">பதிவு திருத்தம் தோல்வியுற்றது</string>
+
+    <string name="title_activity_maps">வரைபடத்திற்குத்</string>
+
+    <string name="title_activity_trip_details">பயணம் விவரங்கள்</string>
+
+    <string name="title_activity_maps_truck">வரைபடத்திற்குத்</string>
+
+    <!--New String-->
+
+    <string name="waiting_charges"> காத்திருக்கும் கட்டணங்கள் </string>
+
+    <string name="SentRequest">அனுப்பிய கோரிக்கை</string>
+
+    <string name="accept">ஏற்கிறேன்</string>
+
+    <string name="reject">நிராகரி</string>
+
+    <string name="rejected">நிராகரிக்கப்பட்டது</string>
+
+    <string name="booked">புக்</string>
+
+    <string name="confirm">உறுதிப்படுத்தவும்</string>
+
+    <string name="decline">சரிவு</string>
+
+    <string name="declined">நிராகரிக்கப்பட்டது</string>
+
+    <string name="ReceivedRequest">பெறப்பட்டது கோரிக்கைகள்</string>
+
+    <string name="request_message">நீங்கள் உண்மையில் டிரக் ஒரு கோரிக்கை செய்ய விரும்புகிறீர்களா?</string>
+
+    <string name="waiting_confirmation">உறுதிப்படுத்தல் காத்திருக்கிறது</string>
+
+    <string name="waiting_payment">கட்டண காத்திருக்கிறது</string>
+
+    <string name="for_date">தேதி</string>
+
+    <string name="and_route">மற்றும் பாதை</string>
+
+    <string name="select_unit">அலகு தேர்ந்தெடுக்கவும்</string>
+
+    <string name="per_km">கிலோ மீட்டருக்கு</string>
+
+    <string name="per_ton">ஒரு டன்</string>
+
+    <string name="point_to_point">சுட்டிக்காட்ட</string>
+
+    <string name="for_post_truck_id">பிந்தைய டிரக் ஐடி</string>
+
+    <string name="for_load_id">சுமை ஐடி</string>
+
+    <string name="for_your_load_id">உங்கள் சுமை அடையாளத்திற்காக</string>
+
+    <string name="has_accepted">ஏற்றுக்கொண்டார்.</string>
+
+    <string name="has_confirmed">உறுதிப்படுத்தியுள்ளது.</string>
+
+    <string name="err_msg_charges_unit">என்பதைத் தேர்ந்தெடுக்கவும் கட்டணங்கள் அலகு.</string>
+
+    <string name="owner_address">முகவரி</string>
+
+    <string name="bank_details">வங்கி விவரங்கள்</string>
+
+    <string name="err_contact_no">எதுவும் கிடைக்கவில்லை தொடர்பு எண்</string>
+
+    <string name="details_inserted_successfully">Details Inserted Successfully</string>@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+    <string name="details_insertion_fails">விபரங்கள் செருகும் தோல்வி</string>
+
+    <string name="load_successfully_deleted">சுமை வெற்றிகரமாக நீக்கப்பட்டது</string>
+
+    <string name="account_successfully_deleted">கணக்கு நீக்கப்பட்டுள்ளது வெற்றிகரமாக </string>
+
+    <string name="account_deleted_Fails">கணக்கு நீக்கப்பட்டுள்ளது வெற்றிகரமாக</string>
+
+    <string name="request_Fails">வேண்டுகோள் தோல்வி</string>
+
+    <string name="load_deleted_Fails">சுமை நீக்குதல் தோல்வி</string>
+
+    <string name="truck_successfully_deleted">டிரக் நீக்கப்பட்ட வெற்றிகரமாக</string>
+
+    <string name="truck_deleted_Fails">சுமை நீக்குதல் தோல்வி</string>
+
+    <string name="load_posted_successfully">சுமை வெற்றிகரமாக இடுகையிடப்பட்டன</string>
+
+    <string name="load_updated_successfully">சுமை வெற்றிகரமாக புதுப்பிக்கப்பட்டது</string>
+
+    <string name="load_updating_fails">சுமை புதுப்பிப்பது தோல்வி</string>
+
+    <string name="date_not_found">டேட்டா காணப்படவில்லை</string>
+
+    <string name="load_posting_fails">சுமை வெளியிட்டது தோல்வி</string>
+
+    <string name="truck_posted_successfully">டிரக் வெற்றிகரமாக இடுகையிடப்பட்டன</string>
+
+    <string name="truck_posting_fails">டிரக் வெளியிட்டது தோல்வி</string>
+
+    <string name="registration_fails"> பதிவு தோல்வி!</string>
+
+    <string name="err_msg_loading_unloding_point_differance">ஏற்ற மற்றும் ஏற்றும் புள்ளி வித்தியாசமாக இருக்க வேண்டும்</string>
+
+    <string name="your_request">உமது வேண்டுகோள்</string>
+
+    <string name="send_success">வெற்றிகரமாக அனுப்பப்பட்டது</string>
+
+    <string name="send_fail">தோல்வியுற்றது</string>
+
+    <string name="logout_account">நீங்கள் கணக்கை வெளியேற்ற விரும்புகிறீர்கள் ? </string>
+
+    <string name="privacy_policy">விதிமுறைகள் மற்றும் நிபந்தனைகளின்</string>
+
+    <string name="about_us">எங்களை பற்றி</string>
+
+    <string name="support">ஆதரவு தொடர்பு </string>
+
+    <string name="select_truck">டிரக் ஒன்றை ட்ரக் செய்தால், டிரக்கைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="our_features">எங்கள் அம்சங்கள்</string>
+
+    <string name="our_features_content"> \n
+        * உண்மையான நேர கண்காணிப்பு அமைப்பு \ n
+        * இரட்டை சேனல் தளம் (பயன்பாடு மற்றும் வலைத்தளம்) \ n
+        * நெகிழ்வான கட்டணம் விருப்பங்கள் * \ n
+        * தானியங்கு செயல்முறை \ n
+        * மலிவு கட்டணம்</string>
+
+    <string name="benefits">நன்மைகள்</string>
+    <string name="benefits_content"> \n
+        * நேர விடாமுயற்சிகள் \ n
+        * உண்மையான நேரம் கண்காணிப்பு \ n
+        * பெரிய தரவுத்தளம் \ n
+        * மனிதன் நாட்களின் குறைபாடு மற்றும் டிரக் திறனற்ற பயன்பாடு \ n
+        * வேகமாக மாறும் நேரம் \ n
+        * சிறந்த மற்றும் வேகமாக நடுத்தர \n
+        * பல்வேறு வகையான சரக்குகள் மற்றும் பல்வேறு இடங்களுக்கு (PAN INDIA) \ n கிடைக்கும்
+        * விரல் உதவிக்குறிப்புகள் மற்றும் நேர்மாறாக சேவை வழங்குனருக்கு வழங்குவதை உருவாக்குகிறது \ n
+        * மீண்டும் ஏற்றுதல் சரக்கு - END புள்ளி</string>
+    <string name="resend_otp">OTP ஐ மீண்டும் அனுப்புக</string>
+
+    <string name="about_us_content">\n\tஇந்தியாவில் சரக்குக் கைத்தொழில் துறையில் அதிகரித்துவரும் வளர்ச்சியுடன், சரியானதைக் கண்டறிவது கடினம்
+        சரியான நேரத்தில் சரியான நேரத்தில் வாடிக்கையாளர். இந்த இடைவெளி தற்போது இருக்கும் மூன்றாம் தரப்பு / மூன்றாம் தரப்பு முகவர்களை மாற்றுவதன் மூலம் தீர்க்கப்பட முடியும்
+        ஒரு டிஜிட்டீயட் மேடையில். வேய்சைடு டிரக் சரக்கு பாலம் ஒரு பார்வை உருவாக்கப்பட்ட ஒரு டிஜிட்டல் தளம் ஆகும்
+        சுமை / சரக்கு வழங்குநர்களுக்கு இடையில் உள்ள இடைவெளியை உள்ளடக்கியது, ஆனால் இது ஈ-வணிகத்திற்கு மட்டுமல்ல, உற்பத்தியாளர்களுக்கும் மட்டும் அல்ல
+        (சிமெண்ட், ஆட்டோமொபைல் போன்றவை), சப்ளை சங்கிலி மேலாண்மை, சரக்கு பரிமாற்றிகள், வேளாண் பண்ணை உரிமையாளர்கள், ஆலை உரிமையாளர்கள் போன்றவை.
+        மற்றும் வண்டிகள் / டிரக் உரிமையாளர்கள் / டிரக் வைத்திருப்பவர்கள். டிரக் வழங்குநர் / உரிமையாளருக்கு சுமை வழங்குனரை அடைய ஒரு ஏற்பாட்டை இது உருவாக்குகிறது
+        விரல் குறிப்புகள் மற்றும் நேர்மாறாக. \n
+        \n\t ஆன்லைன் ஜிபிஎஸ் முறை பயணம் முழுவதும் தனது சுமையைத் தடமறிய சுமை வழங்குனருக்கு உதவுகிறது, இதனால் பாதுகாப்பான மற்றும் பாதுகாப்பானது உறுதிப்படுகிறது
+        போக்குவரத்து. இந்த வசதி, லாரி டிரைவரான நேரத்தை மதிப்பிடுவதற்கு உதவுகிறது
+        பயணம் முடிவடையும் நேரம் காத்திருக்கும். வழிகாட்டி வாடிக்கையாளர்கள் தங்கள் வணிக நோக்கங்களை திறம்பட அடைய உதவுவதை நோக்கமாகக் கொண்டுள்ளது
+        ஒரு சரியான நேரத்தில் அடிப்படையில். நெகிழ்வான கட்டண முறைகள் மற்றும் மலிவான மற்றும் போட்டித்திறன் உள்ள சிறந்த தரமான சேவைகளை நாங்கள் ஏற்ற வழங்கு வழங்குகிறோம்
+        விகிதங்கள். Www.waysidetruckfreight.com தொழிற்சாலை வல்லுநர்களால் நிர்வகிக்கப்படுகிறது.</string>
+
+    <string name="track_trip">ட்ராக் பயணம்</string>
+
+    <string name="trans_success">பரிவர்த்தனை வெற்றிகரமாக முடிக்கப்பட்டது.</string>
+
+    <string name="trans_id">பரிவர்த்தனை ஐடி: </string>
+
+    <string name="thankyou">WAYSIDE TRUCK சரக்கு தேர்வு செய்ய நன்றி</string>
+
+    <string name="request_message_load">சுமைக்காக நீங்கள் உண்மையில் கேட்க விரும்புகிறீர்களா?</string>
+
+    <string name="show_route">வழி காட்டு</string>
+
+    <string name="stop_trip">பயணம் நிறுத்தவும்</string>
+
+    <string name="driver_number">டிரைவர் எண்</string>
+    <string name="message">எஞ்சிய பணம் இரு தரப்பினர்களுக்கும் (சரக்கு வழங்குபவர் மற்றும் டிரக் உரிமையாளர்) இடையே தீர்க்கப்பட வேண்டும். வாஸ்ஸைட் ட்ரெர்க் சரக்கு நிறுவனம் இந்த பரிவர்த்தனைகளில் ஈடுபடாது. அரசாங்க விதிகளின் படி தேவையற்ற வரிகள் (GST, TDS மற்றும் பல) பொருந்தும்.</string>
+
+
+    <string name="please_select_option">கட்டண விருப்பத்தைத் தேர்ந்தெடுக்கவும்</string>
+
+    <string name="stop_trip_message">உங்கள் தற்போது இயங்கும் பயணத்தை நிறுத்த விரும்புகிறீர்களா?</string>
+
+    <string name="any_loads">எந்த நொடிகளும்</string>
+
+    <string name="distance">மொத்த தூரம்</string>
+
+    <string name="final_price">இறுதி விலை</string>
+
+    <string name="why_choose_us">ஏன் எங்களை தேர்வு செய்தாய்</string>
+
+    <string name="advance_25">முன்கூட்டியே வைப்பு (25%) செலுத்தவும்</string>
+
+    <string name="advance_50">முன்கூட்டியே வைப்பு (50%) செலுத்தவும்</string>
+
+    <string name="full_pay">முழு அளவு செலுத்தவும்</string>
+
+    <string name="make_payment">பணம் கட்டு</string>
+
+    <string name="no_data">வேறு தகவல்கள் இல்லை</string>
+
+    <string name="chemical">Chemical</string>
+
+    <string name="food_agri">Food and Agri Products</string>
+
+    <string name="refrigrated">Refrigerated Products</string>
+
+    <string name="cod">Over Dimensional Cargo</string>
+
+    <string name="others">OTHERS</string>
+
+    <string name="trailers">Trailer</string>
+
+    <string name="open_body">Open body</string>
+
+    <string name="closed_body">Closed body</string>
+
+    <string name="cold_truck">Cold truck</string>
+
+    <string name="container">Container</string>
+
+    <string name="data_calculation">செலவு கணக்கிடுகிறது</string>
+</resources>
+

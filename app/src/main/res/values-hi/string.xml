@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">Wayside Truck Freight</string>
+
+    <!--SIGNIN SIGNUP -->
+
+
+    <string name="email"> ईमेल आईडी</string>
+
+    <string name="wait">कृपया प्रतीक्षा करें...</string>
+
+    <string name="full_name">पूरा नाम</string>
+
+    <string name="name">नाम</string>
+
+    <string name="email_OTP">ओटीपी आपके ईमेल आईडी पर भेजा गया है</string>
+
+    <string name="num_OTP"> ओटीपी आपके मोबाइल नंबर पर भेज दिया गया है </string>
+
+    <string name="action_edit"> संपादित करें </string>
+
+    <string name="action_comments">टिप्पणियाँ</string>
+
+    <string name="mob_number"> मोबाइल नंबर </string>
+
+    <string name="password">पासवर्ड</string>
+
+    <string name="conform_password">पासवर्ड की पुष्टि कीजिये</string>
+
+    <string name="forget_password">पासवर्ड भूल गए?</string>
+
+    <string name="create_account">खाता बनाएं</string>
+
+    <string name="cargo_provider">कार्गो प्रदाता</string>
+
+    <string name="truck_owner">ट्रक मालिक</string>
+
+    <string name="who_u_r">जो आप हैं ?</string>
+
+    <string name="signin">साइन इन करें</string>
+
+    <string name="signup">साइन अप करें</string>
+
+    <string name="done">किया हुआ</string>
+
+    <string name="call">कॉल</string>
+
+    <string name="delete"> हटाएं </string>
+
+    <string name="add_new_truck">नया ट्रक जोड़ें</string>
+
+    <string name="delete_account">खाता हटाएं</string>
+
+    <string name="ok">ठीक</string>
+
+    <!--<string name="chemical">रसायन</string>
+
+    <string name="food_agri">खाद्य और कृषि उत्पाद</string>
+
+    <string name="refrigrated">खाद्य और कृषि उत्पाद</string>
+
+    <string name="cod">ODC</string>
+
+    <string name="others">अन्य</string>
+
+    <string name="trailers">ट्रेलर</string>
+
+    <string name="open_body">ओपन बॉडी</string>
+
+    <string name="closed_body">बंद शरीर</string>
+
+    <string name="cold_truck">कोल्ड ट्र </string>
+
+    <string name="container">कंटेनर</string>-->
+
+    <string name="message_sms">हमने आपको ऊपर दिए गए नंबर पर सत्यापन कोड के साथ एक एसएमएस भेजा है </string>
+
+    <string name="payment">भुगतान</string>
+
+    <string name="activation_msg">सक्रियण कोड मैन्युअल रूप से दर्ज करें</string>
+
+    <string name="logOut">लॉग आउट</string>
+
+    <string name="request">अनुरोध</string>
+
+    <string name="availableDate">उपलब्ध तिथि</string>
+
+    <string name="already_have_account">पहले से कोई खाता है?</string>
+
+    <!--Load Details-->
+
+
+    <string name="load_category">भार श्रेणी</string>
+
+    <string name="load_capacity">लोड क्षमता (टन में)</string>
+
+    <string name="load_description">लोड विवरण</string>
+
+    <string name="total_cash">कुल नकद</string>
+
+    <string name="remaining_cash">शेष कैश</string>
+
+    <string name="date">दिनांक</string>
+
+    <string name="from">से</string>
+
+    <string name="id">आईडी</string>
+
+    <string name="start_point">प्रारंभिक बिंदु</string>
+
+    <string name="end_point">गंतव्य बिंदु</string>
+
+    <string name="to">तक</string>
+
+    <string name="ftl">FTL/LTL</string>
+
+    <string name="f_tl">FTL</string>
+
+    <string name="l_tl">LTL</string>
+
+    <string name="weight">वजन (टन)</string>
+
+    <string name="search">खोज</string>
+
+    <string name="srNo">आईडी</string>
+
+    <string name="post_load">पोस्ट लोड</string>
+
+    <string name="load_board">लोड बोर्ड</string>
+
+    <string name="load_details">लोड विवरण</string>
+
+    <string name="order_details">ऑर्डर विवरण</string>
+
+    <string name="my_loads">मेरा भार</string>
+
+    <string name="my_trucks">मेरा ट्रक</string>
+
+    <!--Truck Details-->
+
+
+    <string name="post_truck">पोस्ट ट्रक</string>
+
+    <string name="category_type">श्रेणी प्रकार</string>
+
+    <string name="type_of_truck">ट्रक का प्रकार</string>
+
+    <string name="type_of_load">लोड प्रकार</string>
+
+    <string name="truck_description">ट्रक विवरण</string>
+
+    <string name="clear">साफ़ करें</string>
+
+
+    <string name="about">के बारे में</string>
+
+    <string name="terms_condition">नियम और शर्तें</string>
+
+    <string name="toll_free_no">टॉलफ्री नंबर</string>
+
+    <string name="halting_charges">प्रभार शुल्क</string>
+
+    <string name="MyOrder">मेरे आदेश</string>
+
+    <string name="MyLoads">मेरा भार</string>
+
+    <string name="MyTrips">मेरी यात्राएं</string>
+
+    <string name="MyTrips_Details">ट्रिप विवरण</string>
+
+    <string name="GRANT">अनुदान</string>
+
+    <string name="runtime_permissions_txt">कृपया ऐप सेटिंग्स से सभी अनुमतियां सक्षम करें.</string>
+
+    <string name="edit_mag">आपका ट्रक विवरण संपादित नहीं किया जा सकता क्योंकि यह पहले ही बुक हो चुका है</string>
+
+    <string name="edit_mag_order"> आप ऑर्डर के विवरण को संपादित नहीं कर सकते क्योंकि यह पहले ही बुक हो चुका है</string>
+
+    <string name="add_correct_address">सही स्रोत और गंतव्य पते डालें</string>
+
+    <string name="MyTruck">मेरे ट्रकों</string>
+
+    <string name="Edit_Load">लोड करें संपादित करें</string>
+
+    <string name="profile">प्रोफाइल</string>
+
+    <string name="add_photo">फ़ोटो जोड़ें</string>
+
+    <string name="choose_from_gallery">गैलरी से चुनें</string>
+
+    <string name="select_option">विकल्प चुनें</string>
+
+    <string name="take_photo">फोटो लें</string>
+
+    <string name="want_to_delete_account">क्या आप वाकई अपना प्रोफ़ाइल हटाना चाहते हैं ?</string>
+
+    <string name="owner_bank_details">बैंक विवरण</string>
+
+    <string name="charge"> प्रभार (प्रति किमी)</string>
+
+    <string name="truck_board">ट्रक बोर्ड</string>
+
+    <string name="my_profile">मेरी प्रोफ़ाइल</string>
+
+    <string name="driver_detail">ड्राइवर विवरण</string>
+
+    <string name="truck_detail">ट्रक विवरण</string>
+
+    <string name="vehicle_reg_copy">वाहन पंजीकरण कॉपी चुनें</string>
+
+    <string name="upload">अपलोड करें</string>
+
+    <string name="license_number">लाइसेंस संख्या</string>
+
+    <string name="license_issue">लाइसेंस प्रति</string>
+
+    <string name="truck_image">ट्रक छवि चुनें</string>
+
+    <string name="driver_image">ड्राइवर छवि चुनें</string>
+
+    <string name="insurance_provider">बीमा छवि चुनें</string>
+
+    <string name="load_pass">लोड करना(टन में)</string>
+
+    <string name="license_Issue_City"> लाइसेंस मुद्दा स्थान (शहर)</string>
+
+    <string name="city">शहर</string>
+
+    <string name="state">राज्य</string>
+
+    <string name="panadharno">पैन / आधार कार्ड नंबर</string>
+
+    <string name="address">सड़क नाम</string>
+
+    <string name="pin">पिनकोड</string>
+
+    <string name="land_mark">सीमा चिन्ह</string>
+
+    <string name="emergency_number">आपातकालीन संपर्क नंबर</string>
+
+    <string name="owner_detail">स्वामी विवरण</string>
+
+    <string name="truck_number"> ट्रक नंबर </string>
+
+    <string name="truck_reg_number">ट्रक पंजीकरण संख्या</string>
+
+    <string name="bank_detail">बैंक विस्तार</string>
+
+    <string name="ifsc">आईएफएससी कोड</string>
+
+    <string name="next">अगला</string>
+
+    <string name="Bank_Details">बैंक विवरण</string>
+
+    <string name="account_no">खाता संख्या</string>
+
+    <string name="account_name">संपर्क नाम</string>
+
+    <string name="bank_name">बैंक का नाम</string>
+
+    <string name="submit">सबमिट करें</string>
+
+    <string name="cancel">रद्द करें</string>
+
+    <string name="comment_review">हमें बताएं कि आप इस यात्रा के बारे में क्या सोचते हैं.</string>
+
+    <string name="track_order">ट्रैक</string>
+
+    <string name="edit">संपादित करें</string>
+
+    <string name="verify">सत्यापित करें</string>
+
+    <string name="completed">पूर्ण</string>
+
+    <string name="edit_truck">ट्रक संपादित करें</string>
+
+    <string name="up_coming">आगामी</string>
+
+    <string name="running">रनिंग</string>
+
+    <string name="no_comments">कोई टिप्पणी उपलब्ध नहीं है</string>
+
+    <string name="review_added">समीक्षा सफलतापूर्वक जोड़ा गया</string>
+
+    <string name="add_review">समीक्षा जोड़ें</string>
+
+    <string name="start_trip">आरंभ यात्रा</string>
+
+    <string name="continue_trip">यात्रा जारी रखें</string>
+
+    <string name="comment">टिप्पणी</string>
+
+    <string name="select_language">भाषा चुनें</string>
+
+    <string name="sent_request">भेजा गया अनुरोध</string>
+
+    <string name="received_request">प्राप्त अनुरोध</string>
+
+    <string name="english">English</string>
+
+    <string name="bengali">বাঙালি</string>
+
+    <string name="gujarati">ગુજરાતી</string>
+
+    <string name="hindi">हिंदी</string>
+
+    <string name="kannada">ಕನ್ನಡ</string>
+
+    <string name="malayalam">മലയാളം</string>
+
+    <string name="punjabi">ਪੰਜਾਬੀ ਦੇ</string>
+
+    <string name="telugu">తెలుగు</string>
+
+    <string name="tamil">தமிழ்</string>
+
+
+
+    <string-array name="language">
+
+        <item>@string/english</item>
+
+        <item>@string/bengali</item>
+
+        <item>@string/gujarati</item>
+
+        <item>@string/hindi</item>
+
+        <item>@string/kannada</item>
+
+        <item>@string/malayalam</item>
+
+        <item>@string/punjabi</item>
+
+        <item>@string/tamil</item>
+
+        <item>@string/telugu</item>
+
+    </string-array>
+
+    <string name="halting_charges_per_day">प्रभार शुल्क</string>
+
+    <string name="one_three_days">1 से 3 दिन</string>
+
+    <string name="four_six_days">4 से 6 दिन</string>
+
+    <string name="six_days"> >6 दिन</string>
+
+    <string name="nine_T">9T</string>
+
+    <string name="sixteen_fifteen_T">16T/15T</string>
+
+    <string name="tweentyOne_tweenty_T">21T/20T</string>
+
+    <string name="tweentyFive_tweentyFour_T">25T/24T</string>
+
+    <string name="tweentySeven_tweentyEight_T">27T/28T</string>
+
+    <string name="tweenty_tweentyFour_FT">20ft SAC/24ft SAC</string>
+
+    <string name="thirtyTwo_FT">32ft SAC</string>
+
+    <string name="thirtyTwo_FT_MAC">32ft MAC</string>
+
+    <string name="six">600.00</string>
+
+    <string name="eight">800.00</string>
+
+    <string name="ten">1000.00</string>
+
+    <string name="twelve">1200.00</string>
+
+    <string name="sixteen">1600.00</string>
+
+    <string name="seven">700.00</string>
+
+    <string name="nine">900.00</string>
+
+    <string name="fifteen">1500.00</string>
+
+    <string name="eighteen">1800.00</string>
+
+    <string name="twenty_two">2200.00</string>
+
+    <string name="twenty_four">2400.00</string>
+
+    <string name="twenty_eight">2800.00</string>
+
+    <string name="twenty">2000.00</string>
+
+    <!-- Truck ERROR MESSAGES-->
+
+    <string name="err_msg_driver_Image">ड्राइवर छवि सेट करें</string>
+
+    <string name="err_msg_driver_name">ड्राइवर का नाम दें</string>
+
+    <string name="err_msg_correct_otp">सही OTP दर्ज करें</string>
+
+    <string name="err_msg_driver_number">ड्राइवर संपर्क नंबर दर्ज करें</string>
+
+    <string name="err_msg_Truck_Number">ट्रक संख्या दर्ज करें</string>
+
+    <string name="err_msg_Truck_RegNumber">ट्रक पंजीकरण संख्या दर्ज करें</string>
+
+    <string name="err_msg_Ins_Provider">बीमा प्रदाता और वैधता दर्ज करें</string>
+
+    <string name="err_msg_Load_Passing">लोड हो जाना दर्ज करें</string>
+
+    <string name="err_msg_owner_name">स्वामी का नाम दर्ज करें</string>
+
+    <string name="err_msg_owner_city">शहर दर्ज करें</string>
+
+
+    <string name="err_msg_owner_number">मालिक संख्या दर्ज करें</string>
+
+    <string name="err_msg_owner_PanNo">मालिक पैन / आधार कार्ड नंबर की छवि चुनें</string>
+
+    <string name="err_msg_owner_address">मालिक का पता दर्ज करें</string>
+
+    <string name="err_msg_account_name">मालिक खाता नाम दर्ज करें</string>
+
+    <string name="err_msg_account_number">मालिक खाता संख्या दर्ज करें</string>
+
+    <string name="err_msg_owner_bank_ifsc_code">बैंक आईएफएससी कोड दर्ज करें</string>
+
+    <string name="err_msg_bank_name">बैंक नाम दर्ज करें</string>
+
+    <!-- ERROR MESSAGES-->
+
+
+    <string name="err_msg_email">ईमेल आईडी दर्ज करें.</string>
+
+    <string name="err_msg_sign">अमान्य ईमेल या मोबाइल नंबर कृपया मान्य ईमेल आईडी या मोबाइल नंबर दर्ज करें.</string>
+
+    <string name="err_msg_sign_in">आप केवल वैध ईमेल आईडी या मोबाइल नंबर दर्ज कर सकते हैं </string>
+
+    <string name="err_msg_name">नाम दर्ज करें</string>
+
+    <string name="err_msg_mob">कृपया 10 अंकों का मान्य मोबाइल नंबर दर्ज करें</string>
+
+    <string name="or">या</string>
+
+    <string name="err_msg_emg_mob">आपातकालीन मोबाइल नंबर दर्ज करें</string>
+
+    <string name="err_msg_password">पासवर्ड दर्ज करें</string>
+
+    <string name="err_msg_conf_password">पासवर्ड मेल नहीं खाते</string>
+
+    <string name="err_msg_city">शहर दर्ज करें</string>
+
+    <string name="err_acc_exit">यह ईमेल आईडी पहले से मौजूद है</string>
+
+    <string name="err_mob_no_exit">यह मोबाइल नंबर पहले से मौजूद है</string>
+
+    <string name="err_agree_terms">कृपया साइन अप करने के लिए नियम और शर्तों से सहमत हों </string>
+
+    <string name="err_update_fail">प्रोफ़ाइल अपडेट विफल, कृपया पुनः प्रयास करें</string>
+
+    <string name="err_msg_who_u_r">चुनें कि आप कौन हैं?</string>
+
+    <string name="networkError">नेटवर्क त्रुटि! कृपया सुनिश्चित करें कि यह डिवाइस किसी नेटवर्क से जुड़ा है.</string>
+
+    <!--Load Post error messages-->
+
+
+    <string name="err_msg_date"> तिथि दर्ज करें </string>
+
+    <string name="err_msg_from">सड़क का पता दर्ज करें</string>
+
+    <string name="err_msg_landmark">मील का पत्थर दर्ज करें</string>
+
+    <string name="err_msg_charges"> शुल्क दर्ज करें </string>
+
+    <string name="err_msg_state"> राज्य दर्ज करें </string>
+
+    <string name="err_msg_pin">राज्य दर्ज करेंराज्य दर्ज करेंराज्य दर्ज करें</string>
+
+    <string name="err_msg_load_category">लोड श्रेणी चुनें</string>
+
+    <string name="err_msg_load_capacity">लोड क्षमता चुनें</string>
+
+    <string name="err_msg_ftl_ltl">FTL/LTL चुनें</string>
+
+    <string name="err_msg_weight">टन में वजन दर्ज करें</string>
+
+    <string name="err_msg_truck_type">का प्रकार चुनें</string>
+
+    <string name="fail_msg">रिकॉर्ड पोस्ट नहीं किया जा सकता</string>
+
+    <string name="success_msg">रिकॉर्ड सफलतापूर्वक जोड़ा गया</string>
+
+    <string name="edit_success_msg">रिकॉर्ड सफलतापूर्वक संपादित</string>
+
+    <string name="edit_fail_msg">रिकॉर्ड संपादन विफल</string>
+
+    <string name="title_activity_maps">मानचित्र</string>
+
+    <string name="title_activity_trip_details">ट्रिप विवरण</string>
+
+    <string name="title_activity_maps_truck">मानचित्र</string>
+
+    <!--New String-->
+
+    <string name="waiting_charges"> प्रतीक्षा charges</string>
+
+    <string name="SentRequest">"भेजा गया अनुरोध</string>
+
+    <string name="accept"> स्वीकार करें </string>
+
+    <string name="reject"> अस्वीकार</string>
+
+    <string name="rejected">अस्वीकृत</string>
+
+    <string name="booked">बुक किया</string>
+
+    <string name="confirm">पुष्टि करें</string>
+
+    <string name="decline">अस्वीकार</string>
+
+    <string name="declined">अस्वीकृत</string>
+
+    <string name="ReceivedRequest">प्राप्त अनुरोध</string>
+
+    <string name="request_message">क्या आप वास्तव में ट्रक के लिए अनुरोध करना चाहते हैं ?</string>
+
+    <string name="waiting_confirmation">पुष्टि के लिए प्रतीक्षा कर रहा है</string>
+
+    <string name="waiting_payment">भुगतान की प्रतीक्षा</string>
+
+    <string name="for_date">तारीख के लिए</string>
+
+    <string name="and_route">और मार्ग</string>
+
+    <string name="select_unit">इकाई चुनें</string>
+
+    <string name="per_km">प्रति किमी</string>
+
+    <string name="per_ton">प्रति टन</string>
+
+    <string name="point_to_point">बिंदु से बिंदु</string>
+
+    <string name="for_post_truck_id"> पोस्ट ट्रक आईडी के लिए</string>
+
+    <string name="for_load_id"> भार आईडी के लिए</string>
+
+    <string name="for_your_load_id">लोड आईडी के लिए</string>
+
+    <string name="has_accepted">स्वीकार.</string>
+
+    <string name="has_confirmed">पुष्टि की गई है.</string>
+
+    <string name="err_msg_charges_unit">प्रभार इकाई चुनें.</string>
+
+    <string name="owner_address">पता</string>
+
+    <string name="bank_details">बैंक विवरण</string>
+
+    <string name="err_contact_no">कोई संपर्क नंबर उपलब्ध नहीं है</string>
+
+    <string name="details_inserted_successfully">विवरण प्रविष्टि सफल</string>
+
+    <string name="details_insertion_fails">विवरण प्रविष्टि विफल</string>
+
+    <string name="load_successfully_deleted">लोड सफलतापूर्वक हटाए गए</string>
+
+    <string name="account_successfully_deleted">खाता सफलतापूर्वक हटाया गया</string>
+
+    <string name="account_deleted_Fails">खाता विलोपन विफल</string>
+
+    <string name="request_Fails">अनुरोध असफल</string>
+
+    <string name="load_deleted_Fails">लोड विलोपन विफल</string>
+
+    <string name="truck_successfully_deleted">ट्रक सफलतापूर्वक हटाया गया</string>
+
+    <string name="truck_deleted_Fails">लोड विलोपन विफल</string>
+
+    <string name="load_posted_successfully">लोड सफलतापूर्वक पोस्ट</string>
+
+    <string name="load_updated_successfully">लोड सफलतापूर्वक लोड करें</string>
+
+    <string name="load_updating_fails">लोड अपडेट करना विफल</string>
+
+    <string name="date_not_found">डेटा नहीं मिला</string>
+
+    <string name="load_posting_fails"> लोड पोस्ट असफल </string>
+
+    <string name="truck_posted_successfully">ट्रक सफलतापूर्वक पोस्ट किया गया</string>
+
+    <string name="truck_posting_fails">ट्रक पोस्ट में विफल</string>
+
+    <string name="registration_fails">पंजीकरण विफल!</string>
+
+    <string name="err_msg_loading_unloding_point_differance"> लोड हो रहा है और उतराई बिंदु अलग होना चाहिए </string>
+
+    <string name="your_request">आपके अनुरोध</string>
+
+    <string name="send_success">ने सफलतापूर्वक भेजा है</string>
+
+    <string name="send_fail">असफल हो गया</string>
+
+    <string name="logout_account"> आप वास्तव में लॉगआउट खाता चाहते हैं ? </string>
+
+    <string name="privacy_policy">नियम व शर्तें</string>
+
+    <string name="about_us">हमारे बारे में</string>
+
+    <string name="support"> सहयोग टीम से संपर्क करें</string>
+
+    <string name="select_truck">अगर ट्रक को फिर से पोस्ट करना है तो ट्रक का चयन करें</string>
+    <string name="our_features">हमारी विशेषताएं</string>
+
+    <string name="about_us_content">\n\t भारत में माल उद्योग में वृद्धि के साथ, सही खोजना मुश्किल है
+        सही जगह पर सही समय पर ग्राहक इस अंतर को मौजूदा तृतीय पक्षों / तीसरे पक्ष के एजेंटों की जगह ले जाया जा सकता है
+        एक डिजिटलकृत प्लेटफ़ॉर्म के साथ Wayside ट्रक फ्रेट एक डिजिटल प्लेटफॉर्म है जो कि एक पुल के लिए बनाया गया है
+        लोड / कार्गो प्रदाताओं के बीच मौजूदा अंतर, जिसमें ई-बिज़नेस, निर्माता तक सीमित नहीं है लेकिन
+        (सीमेंट, ऑटोमोबाइल इत्यादि), आपूर्ति श्रृंखला प्रबंधन, फ्रेट फॉरवर्डर्स, एग्रो फार्म मालिक, मिल मालिक आदि।
+        और ट्रांसपोर्टर / ट्रक मालिक / ट्रक धारक यह ट्रक प्रदाता / धारक को लोड प्रदाता तक पहुंचने के लिए एक प्रावधान बनाता है
+        उंगली युक्तियों और इसके विपरीत पर \n
+        \n\t ऑनलाइन जीपीएस सिस्टम लोड प्रदाता को यात्रा के दौरान अपने लोड को ट्रैक करने के लिए सहायता करता है जिससे सुरक्षित और सुरक्षित का आश्वासन मिलता है
+        परिवहन। यह सुविधा ट्रक चालक को पहुंचने के समय का अनुमान लगाने में मदद करती है और वर्तमान से पहले दूसरी यात्रा बुक करती है
+        यात्रा समाप्त होता है इस प्रकार किसी भी प्रतीक्षा समय से बचने। Wayside का उद्देश्य अपने ग्राहकों को अपने व्यावसायिक उद्देश्यों को प्रभावी ढंग से प्राप्त करने और सहायता करने के लिए
+        एक समय पर आधार पर हम लचीला भुगतान विधियों के साथ भार प्रदाता की पेशकश करते हैं और सस्ती और प्रतिस्पर्धी पर सर्वोत्तम गुणवत्ता सेवाएं प्रदान करते हैं
+        दरें। Www.waysidetruckfreight.com औद्योगिक विशेषज्ञों द्वारा प्रबंधित किया जाता है.</string>
+
+    <string name="our_features_content"> \n
+        * वास्तविक समय ट्रैकिंग प्रणाली \n
+        * दोहरी चैनल मंच (ऐप और वेबसाइट) \n
+        * लचीले भुगतान विकल्प * \n
+        * स्वचालित प्रक्रिया \n
+        * सस्ती शुल्क</string>
+
+    <string name="benefits">लाभ</string>
+    <string name="benefits_content"> \n
+        * समय पर वितरण \n
+        * वास्तविक समय ट्रैकिंग \n
+        * विशाल डेटाबेस \n
+        * आदमी के दिनों की कम अपशिष्ट और ट्रक का कुशल उपयोग \n
+        * तेज़ बदलाव का समय\n
+        * बेहतर और तेज मध्यम \n
+        * विभिन्न प्रकार के केर्गो और विभिन्न स्थलों (पैन इंडिया) के लिए लाभ उठाया जा सकता है \n
+        * यह उंगली युक्तियों पर सेवा प्रदाता के लिए प्रावधान बनाता है और इसके विपरीत \n
+        * वापस लदान कार्गो - अंत अंक</string>
+
+    <string name="resend_otp">पुन: भेजने OTP</string>
+
+    <string name="track_trip">ट्रैक यात्रा</string>
+
+    <string name="trans_success">लेनदेन सफलतापूर्वक पूरा हो गया है.</string>
+
+    <string name="trans_id">लेनदेन आईडी : </string>
+
+    <string name="thankyou">आप जिस तरह से सड़क के ढुलाई को चुनने के लिए धन्यवाद</string>
+
+    <string name="request_message_load">क्या आप वास्तव में लोड के लिए अनुरोध करना चाहते हैं? ?</string>
+
+    <string name="show_route">मार्ग दिखाएं</string>
+
+    <string name="stop_trip">ट्रिप बंद करो</string>
+
+    <string name="driver_number">ड्राइवर संख्या</string>
+    <string name="message">बाकी का भुगतान दो पक्षों (कार्गो प्रदाता और ट्रक के स्वामी को) के बीच ही किया जाना चाहिए। किनारे ट्रक माल ढुलाई उस लेनदेन में शामिल नहीं है। अनिवार्य कर (जीएसटी, टीडीएस, आदि) सरकारी नियमों के अनुसार लागू होंगे ।</string>
+
+
+    <string name="please_select_option">कृपया भुगतान विकल्प चुनें</string>
+
+    <string name="stop_trip_message">क्या आप अपनी वर्तमान चल रही यात्रा को रोकना चाहते हैं?</string>
+
+    <string name="any_loads">कोई भी लोड</string>
+
+    <string name="distance">कुल दूरी</string>
+
+    <string name="final_price">अंतिम कीमत</string>
+
+    <string name="why_choose_us">हमारा चयन क्यों</string>
+
+    <string name="advance_25">अग्रिम जमा राशि (25%)</string>
+
+    <string name="advance_50">अग्रिम जमा राशि (50%)</string>
+
+    <string name="full_pay">पूरी राशि का भुगतान करें</string>
+
+    <string name="make_payment">भुगतान करो</string>
+
+    <string name="no_data">कोई डेटा नहीं मिला</string>
+
+    <string name="chemical">Chemical</string>
+
+    <string name="food_agri">Food and Agri Products</string>
+
+    <string name="refrigrated">Refrigerated Products</string>
+
+    <string name="cod">Over Dimensional Cargo</string>
+
+    <string name="others">OTHERS</string>
+
+    <string name="trailers">Trailer</string>
+
+    <string name="open_body">Open body</string>
+
+    <string name="closed_body">Closed body</string>
+
+    <string name="cold_truck">Cold truck</string>
+
+    <string name="container">Container</string>
+
+    <string name="data_calculation">लागत की गणना</string>
+</resources>
+

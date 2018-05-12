@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Owner.PostTruck">
+
+    <include layout="@layout/toolbar" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_truck_Date"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/border"
+                android:drawableRight="@drawable/date"
+                android:hint="@string/date"
+                android:padding="10dp"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5">
+
+                    <EditText
+                        android:id="@+id/txtFrom"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/border"
+                        android:hint="@string/from"
+                        android:inputType="textCapSentences"
+                        android:padding="10dp"
+                        android:textColor="@color/grey"
+                        android:textSize="@dimen/text_size" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5">
+
+                    <EditText
+                        android:id="@+id/txtTo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/border"
+                        android:hint="@string/to"
+                        android:inputType="textCapSentences"
+                        android:padding="10dp"
+                        android:textColor="@color/grey"
+                        android:textSize="@dimen/text_size" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtLoadCategory"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/border"
+                android:hint="@string/load_category"
+                android:padding="10dp"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size" />
+
+            <TextView
+                android:id="@+id/txtTruckType"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/border"
+                android:hint="@string/type_of_truck"
+                android:padding="10dp"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size" />
+
+            <TextView
+                android:id="@+id/txtFLT"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/border"
+                android:hint="@string/ftl"
+                android:padding="10dp"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/txtLoadCapacity"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:hint="Truck Capacity"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/text_size" />
+            </android.support.design.widget.TextInputLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_weight="0.5">
+
+                    <EditText
+                        android:id="@+id/edtxtCharge"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/border"
+                        android:hint="@string/charge"
+                        android:inputType="numberDecimal"
+                        android:padding="10dp"
+                        android:textColor="@color/grey"
+                        android:textSize="@dimen/text_size" />
+                </android.support.design.widget.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/txtChargeUnit"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/border"
+                    android:hint="@string/select_unit"
+                    android:padding="10dp"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/text_size" />
+            </LinearLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="200dp"
+                android:layout_weight="0.5">
+
+                <EditText
+                    android:id="@+id/edtxtTruckDesc"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:hint="@string/truck_description"
+                    android:inputType="textCapSentences"
+                    android:padding="10dp"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/text_size" />
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnPostCancel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginRight="4dp"
+            android:layout_weight="0.5"
+            android:background="@color/colorPrimary"
+            android:text="@string/cancel"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnPostSubmit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="0.5"
+            android:background="@color/colorPrimary"
+            android:text="@string/submit"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size" />
+    </LinearLayout>
+</RelativeLayout>

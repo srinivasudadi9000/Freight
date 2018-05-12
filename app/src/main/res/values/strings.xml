@@ -1,0 +1,684 @@
+<?xml version="1.0"?>
+
+<resources>
+
+    <string name="app_name">Wayside Truck Freight</string>
+
+    <!--SIGNIN SIGNUP -->
+
+
+    <string name="email">Email Id</string>
+
+    <string name="wait">Please wait...</string>
+
+    <string name="data_calculation">Calculating cost</string>
+
+    <string name="full_name">Full Name</string>
+
+    <string name="name">Name</string>
+
+    <string name="email_OTP">The OTP has been sent to your email id </string>
+
+    <string name="num_OTP">The OTP has been sent to your mobile number</string>
+
+    <string name="action_edit">Edit</string>
+
+    <string name="action_comments">Comments</string>
+
+    <string name="mob_number">Mobile Number</string>
+
+    <string name="password">Password</string>
+
+    <string name="conform_password">Confirm Password</string>
+
+    <string name="forget_password">Forgot password?</string>
+
+    <string name="create_account">Create an account</string>
+
+    <string name="cargo_provider">Cargo Provider</string>
+
+    <string name="truck_owner">Truck Owner</string>
+
+    <string name="who_u_r">Who you are ?</string>
+
+    <string name="signin">Sign In</string>
+
+    <string name="signup">Sign Up</string>
+
+    <string name="done">Done</string>
+
+    <string name="call">Call</string>
+
+    <string name="delete">Delete</string>
+
+    <string name="add_new_truck">Add new Truck</string>
+
+    <string name="delete_account">Delete Account </string>
+
+    <string name="ok">Ok</string>
+
+    <string name="chemical">Chemical</string>
+
+    <string name="food_agri">Food and Agri Products</string>
+
+    <string name="refrigrated">Refrigerated Products</string>
+
+    <string name="cod">Over Dimensional Cargo</string>
+
+    <string name="others">OTHERS</string>
+
+    <string name="trailers">Trailer</string>
+
+    <string name="open_body">Open body</string>
+
+    <string name="closed_body">Closed body</string>
+
+    <string name="cold_truck">Cold truck</string>
+
+    <string name="container">Container</string>
+
+    <string name="message_sms">We have sent you an SMS with verification code to the above number</string>
+
+    <string name="payment">Payment</string>
+
+    <string name="activation_msg">Enter activation code manually</string>
+
+    <string name="logOut">Log Out</string>
+
+    <string name="request">Request</string>
+
+    <string name="availableDate">Available Date</string>
+
+    <string name="already_have_account">Already have an account?</string>
+
+    <!--Load Details-->
+
+
+    <string name="load_category">Load Category</string>
+
+    <string name="load_capacity">Load Capacity (in tons)</string>
+
+    <string name="load_description">Load Description</string>
+
+    <string name="total_cash">Total Cash</string>
+
+    <string name="remaining_cash">Remaining Cash</string>
+
+    <string name="date">Date</string>
+
+    <string name="from">From</string>
+
+    <string name="id">Id</string>
+
+    <string name="start_point">Loading Point</string>
+
+    <string name="end_point">Unloading Point</string>
+
+    <string name="to">To</string>
+
+    <string name="ftl">FTL/LTL</string>
+
+    <string name="f_tl">FTL</string>
+
+    <string name="l_tl">LTL</string>
+
+    <string name="weight">Weight(tons)</string>
+
+    <string name="search">Search</string>
+
+    <string name="srNo">Id</string>
+
+    <string name="post_load">Post Load</string>
+
+    <string name="load_board">Load board</string>
+
+    <string name="load_details">Load Details</string>
+
+    <string name="order_details">Order Details</string>
+
+    <string name="my_loads">My Loads</string>
+
+    <string name="my_trucks">My Trucks</string>
+
+    <!--Truck Details-->
+
+
+    <string name="post_truck">Post Truck</string>
+
+    <string name="category_type">Category Type</string>
+
+    <string name="type_of_truck">Type of truck</string>
+
+    <string name="type_of_load">Load type</string>
+
+    <string name="truck_description">Truck description</string>
+
+    <string name="clear">Clear</string>
+
+    <string name="about">About Us</string>
+
+    <string name="terms_condition">Accept <u>Terms and conditions</u> </string>
+
+    <string name="toll_free_no">Tollfree number</string>
+
+    <string name="halting_charges">Halting Charges</string>
+
+    <string name="MyOrder">My Orders</string>
+
+    <string name="MyLoads">My Loads</string>
+
+    <string name="MyTrips">My Trips</string>
+
+    <string name="MyTrips_Details">Trip Details</string>
+
+    <string name="GRANT">GRANT</string>
+
+    <string name="runtime_permissions_txt">Please enable ALL permissions from app settings.</string>
+
+    <string name="edit_mag">Your can not edit truck details because it has already been booked</string>
+
+    <string name="edit_mag_order">You can not edit order details because it has already been booked</string>
+
+    <string name="add_correct_address">Insert correct source and destination address</string>
+
+    <string name="MyTruck">My Trucks</string>
+
+    <string name="Edit_Load">Edit Load</string>
+
+    <string name="profile">Profile</string>
+
+    <string name="add_photo">Add Photo</string>
+
+    <string name="choose_from_gallery">Choose from Gallery</string>
+
+    <string name="select_option">Select Option</string>
+
+    <string name="take_photo">Take Photo</string>
+
+    <string name="want_to_delete_account">Do you really want to delete your profile ?</string>
+
+    <string name="owner_bank_details">Bank Details</string>
+
+    <string name="charge">Charges</string>
+
+    <string name="truck_board">Truck board</string>
+
+    <string name="my_profile">My Profile</string>
+
+    <string name="driver_detail">Driver Details</string>
+
+    <string name="truck_detail">Truck Details</string>
+
+    <string name="vehicle_reg_copy">Vehicle registration copy</string>
+
+    <string name="upload">Upload</string>
+
+    <string name="license_number">License number</string>
+
+    <string name="license_issue">License copy</string>
+
+    <string name="truck_image">Select truck image</string>
+
+    <string name="driver_image">Select driver image</string>
+
+    <string name="insurance_provider">Select insurance image</string>
+
+    <string name="load_pass">Load passing(in tons)</string>
+
+    <string name="license_Issue_City">License issue location(city)</string>
+
+    <string name="city">City/Town/village</string>
+
+    <string name="state">State</string>
+
+    <string name="panadharno">PAN/Aadhar card no</string>
+
+    <string name="address">Street Name</string>
+
+    <string name="pin">Pincode</string>
+
+    <string name="land_mark">Landmark</string>
+
+    <string name="emergency_number">Emergency contact number</string>
+
+    <string name="owner_detail">Owner Details</string>
+
+    <string name="truck_number">Truck number</string>
+
+    <string name="truck_reg_number">Truck registration number</string>
+
+    <string name="bank_detail">Bank Details</string>
+
+    <string name="ifsc">IFSC / RTGS / NEFT Code</string>
+
+    <string name="next">Next</string>
+
+    <string name="Bank_Details">Bank Details</string>
+
+    <string name="account_no">Account number</string>
+
+    <string name="account_name">Account holder name</string>
+
+    <string name="bank_name">Bank name</string>
+
+    <string name="submit">Submit</string>
+
+    <string name="cancel">Cancel</string>
+
+    <string name="comment_review">Tell us what you think about this trip.</string>
+
+    <string name="track_order">Track </string>
+
+    <string name="edit">Edit</string>
+
+    <string name="verify">Verify</string>
+
+    <string name="completed">Completed</string>
+
+    <string name="edit_truck">Edit truck</string>
+
+    <string name="up_coming">Up Coming </string>
+
+    <string name="running">Running</string>
+
+    <string name="no_comments">No comments available </string>
+
+    <string name="review_added">Review Added successfully</string>
+
+    <string name="add_review">Add Review</string>
+
+    <string name="start_trip">Start Trip</string>
+
+    <string name="continue_trip">Continue Trip</string>
+
+    <string name="comment">Comment</string>
+
+    <string name="select_language">Choose Language</string>
+
+    <string name="sent_request">Sent Requests</string>
+
+    <string name="received_request">Received Requests</string>
+
+    <string name="english">English</string>
+
+    <string name="bengali">বাঙালি</string>
+
+    <string name="gujarati">ગુજરાતી</string>
+
+    <string name="hindi">हिंदी</string>
+
+    <string name="kannada">ಕನ್ನಡ</string>
+
+    <string name="malayalam">മലയാളം</string>
+
+    <string name="punjabi">ਪੰਜਾਬੀ ਦੇ</string>
+
+    <string name="telugu">తెలుగు</string>
+
+    <string name="tamil">தமிழ்</string>
+
+
+    <string-array name="language">
+
+        <item>@string/english</item>
+
+        <item>@string/bengali</item>
+
+        <item>@string/gujarati</item>
+
+        <item>@string/hindi</item>
+
+        <item>@string/kannada</item>
+
+        <item>@string/malayalam</item>
+
+        <item>@string/punjabi</item>
+
+        <item>@string/tamil</item>
+
+        <item>@string/telugu</item>
+
+    </string-array>
+
+    <string name="halting_charges_per_day">Halting Charges Per Day</string>
+
+    <string name="one_three_days">1 to 3 days</string>
+
+    <string name="four_six_days">4 to 6 days</string>
+
+    <string name="six_days"> >6 days</string>
+
+    <string name="nine_T">9T</string>
+
+    <string name="sixteen_fifteen_T">16T/15T</string>
+
+    <string name="tweentyOne_tweenty_T">21T/20T</string>
+
+    <string name="tweentyFive_tweentyFour_T">25T/24T</string>
+
+    <string name="tweentySeven_tweentyEight_T">27T/28T</string>
+
+    <string name="tweenty_tweentyFour_FT">20ft SAC/24ft SAC</string>
+
+    <string name="thirtyTwo_FT">32ft SAC</string>
+
+    <string name="thirtyTwo_FT_MAC">32ft MAC</string>
+
+    <string name="six">600.00</string>
+
+    <string name="eight">800.00</string>
+
+    <string name="ten">1000.00</string>
+
+    <string name="twelve">1200.00</string>
+
+    <string name="sixteen">1600.00</string>
+
+    <string name="seven">700.00</string>
+
+    <string name="nine">900.00</string>
+
+    <string name="fifteen">1500.00</string>
+
+    <string name="eighteen">1800.00</string>
+
+    <string name="twenty_two">2200.00</string>
+
+    <string name="twenty_four">2400.00</string>
+
+    <string name="twenty_eight">2800.00</string>
+
+    <string name="twenty">2000.00</string>
+
+    <!-- Truck ERROR MESSAGES-->
+
+    <string name="err_msg_driver_Image">Set driver image</string>
+
+    <string name="err_msg_driver_name">Enter driver name</string>
+
+    <string name="err_msg_correct_otp">Enter correct OTP</string>
+
+    <string name="err_msg_driver_number">Enter driver contact number</string>
+
+    <string name="err_msg_Truck_Number">Enter truck number</string>
+
+    <string name="err_msg_Truck_RegNumber">Enter truck registration number</string>
+
+    <string name="err_msg_Ins_Provider">Enter insurance provider and validity</string>
+
+    <string name="err_msg_Load_Passing">Enter load passing</string>
+
+    <string name="err_msg_owner_name">Enter owner name</string>
+
+    <string name="err_msg_owner_city">Enter city</string>
+
+
+    <string name="err_msg_owner_number">Enter owner number</string>
+
+    <string name="err_msg_owner_PanNo">Select image of owner PAN/Aadhar card No</string>
+
+    <string name="err_msg_owner_address">Enter owner address</string>
+
+    <string name="err_msg_account_name">Enter owner account name</string>
+
+    <string name="err_msg_account_number">Enter owner account number</string>
+
+    <string name="err_msg_owner_bank_ifsc_code">Enter bank IFSC code</string>
+
+    <string name="err_msg_bank_name">Enter bank name</string>
+
+    <!-- ERROR MESSAGES-->
+
+
+    <string name="err_msg_email">Please Enter email id.</string>
+
+    <string name="err_msg_sign">Please enter email id or mobile number to get an OTP.</string>
+
+    <string name="err_msg_sign_in">You can enter only valid email id or mobile number</string>
+
+    <string name="err_msg_name">Enter name</string>
+
+    <string name="err_msg_mob">Please enter 10 digit valid mobile number</string>
+
+    <string name="or">OR</string>
+
+    <string name="err_msg_emg_mob">Enter emergency mobile number</string>
+
+    <string name="err_msg_password">Enter password</string>
+
+    <string name="err_msg_conf_password">Passwords do not match</string>
+
+    <string name="err_msg_city">Enter city</string>
+
+    <string name="err_acc_exit">This Email id Already Exists</string>
+
+    <string name="err_mob_no_exit">This Mobile No. already exists</string>
+
+    <string name="err_agree_terms">Please agree the terms and conditions to sign up</string>
+
+    <string name="err_update_fail">Profile update failed. Please try again</string>
+
+    <string name="err_msg_who_u_r">Select who you are?</string>
+
+    <string name="networkError">Network error! Please make sure this device is connected to a network.</string>
+
+    <!--Load Post error messages-->
+
+
+    <string name="err_msg_date">Enter date</string>
+
+    <string name="err_msg_from">Enter street address</string>
+
+    <string name="err_msg_landmark">Enter Landmark</string>
+
+    <string name="err_msg_charges">Enter Charges</string>
+
+    <string name="err_msg_state">Enter State</string>
+
+    <string name="err_msg_pin">Enter Pincode</string>
+
+    <string name="err_msg_load_category">Select load category</string>
+
+    <string name="err_msg_load_capacity">Select load capacity</string>
+
+    <string name="err_msg_ftl_ltl">Select FTL/LTL</string>
+
+    <string name="err_msg_weight">Enter Weight in tons</string>
+
+    <string name="err_msg_truck_type">Select type of truck</string>
+
+    <string name="fail_msg">Record post unsuccessful</string>
+
+    <string name="success_msg">Record added successfully</string>
+
+    <string name="edit_success_msg">Record edited successfully</string>
+
+    <string name="edit_fail_msg">Record edit failed</string>
+
+    <string name="title_activity_maps">Map</string>
+
+    <string name="title_activity_trip_details">Trip Details</string>
+
+    <string name="title_activity_maps_truck">Map</string>
+
+    <!--New String-->
+
+    <string name="waiting_charges">Waiting_charges</string>
+
+    <string name="SentRequest">Sent Request</string>
+
+    <string name="accept">Accept</string>
+
+    <string name="reject">Reject</string>
+
+    <string name="rejected">Rejected</string>
+
+    <string name="booked">Booked</string>
+
+    <string name="confirm">Confirm</string>
+
+    <string name="decline">Decline</string>
+
+    <string name="declined">Declined</string>
+
+    <string name="ReceivedRequest">Received Request</string>
+
+    <string name="request_message">Do you really want to request for the truck ?</string>
+
+    <string name="waiting_confirmation">Waiting for confirmation</string>
+
+    <string name="waiting_payment">Waiting for payment</string>
+
+    <string name="for_date"> for date </string>
+
+    <string name="and_route"> and route </string>
+
+    <string name="select_unit">Select unit</string>
+
+    <string name="per_km"> per km</string>
+
+    <string name="per_ton">per ton</string>
+
+    <string name="point_to_point">point to point</string>
+
+    <string name="for_post_truck_id">for post truck id</string>
+
+    <string name="for_load_id">for load id</string>
+
+    <string name="for_your_load_id">for your load id</string>
+
+    <string name="has_accepted">has accepted.</string>
+
+    <string name="has_confirmed">has confirmed.</string>
+
+    <string name="err_msg_charges_unit">Select Charges unit.</string>
+
+    <string name="owner_address">Address</string>
+
+    <string name="bank_details">Bank Details</string>
+
+    <string name="err_contact_no">No contact number available</string>
+
+    <string name="details_inserted_successfully">Details Inserted Successfully</string>
+
+    <string name="details_insertion_fails">Details Insertion Failed</string>
+
+    <string name="load_successfully_deleted">Load Deleted Successfully</string>
+
+    <string name="account_successfully_deleted">Account Deleted Successfully</string>
+
+    <string name="account_deleted_Fails">Account Deletion Failed</string>
+
+    <string name="request_Fails">Request Failed</string>
+
+    <string name="load_deleted_Fails">Load Deletion Failed</string>
+
+    <string name="truck_successfully_deleted">Truck Deleted Successfully</string>
+
+    <string name="truck_deleted_Fails">Load Deletion Failed</string>
+
+    <string name="load_posted_successfully">Load Posted Successfully</string>
+
+    <string name="load_updated_successfully">Load Updated Successfully</string>
+
+    <string name="load_updating_fails">Load Updating Failed</string>
+
+    <string name="date_not_found">Data not found</string>
+
+    <string name="load_posting_fails">Load Posted Failed</string>
+
+    <string name="truck_posted_successfully">Truck Posted Successfully</string>
+
+    <string name="truck_posting_fails">Truck Posted Failed</string>
+
+    <string name="registration_fails">Registration failed !</string>
+
+    <string name="err_msg_loading_unloding_point_differance">Loading and Unloading point must be different</string>
+
+    <string name="your_request">Your request</string>
+
+    <string name="send_success"> has sent successfully</string>
+
+    <string name="send_fail">has failed</string>
+
+    <string name="logout_account">You really want to logout Account </string>
+
+    <string name="privacy_policy">Terms and condition</string>
+
+    <string name="about_us">About Us</string>
+
+    <string name="support">Contact Support</string>
+
+    <string name="final_price">Final Price</string>
+
+    <string name="select_truck">Select truck if u want to re post truck</string>
+
+    <string name="why_choose_us">Why choose us</string>
+
+    <string name="advance_25">Pay advance deposit (25%)</string>
+
+    <string name="advance_50">Pay advance deposit (50%)</string>
+
+    <string name="full_pay">Pay full amount</string>
+
+    <string name="make_payment">Make Payment</string>
+
+    <string name="no_data">No data found</string>
+
+    <string name="distance">Total distance</string>
+
+    <string name="about_us_content">\n\t With the increasing growth in the freight industry in India, it is difficult to find the right customer at the right time at the right place. This gap can be addressed by replacing the existing third parties / third party agents with a digitalised platform. Wayside Truck Freight is a digital platform created with a vision to bridge the existing gap between the load/cargo providers which includes but not limited to e-business, manufacturers (cement, automobile etc.), supply chain management, freight forwarders, agro farm owners, mill owners etc. and the transporters/truck owners/truck holders. It creates a provision for the truck provider/holder to reach the load provider on finger tips and vice versa. \n
+
+ \n\t The online GPS system aids the load provider to track his load throughout the trip thereby assuring safe and secure transportation. This facility even helps the truck driver to estimate the reaching time and book another trip before the current trip ends thus avoiding any waiting time. Wayside aims at helping its clients achieve their business objectives effectively and on a timely basis. We offer the load provider with flexible payment methods and best quality services at affordable and competitive rates. www.waysidetruckfreight.com is managed by industrial experts.</string>
+
+    <string name="our_features">Our features</string>
+
+    <string name="our_features_content"> \n
+        * Real time tracking system \n
+        * Dual channel platform (App and Website) \n
+        * Flexible Payment options* \n
+        * Automated process \n
+        * Affordable charges</string>
+
+    <string name="benefits">Benefits</string>
+    <string name="benefits_content"> \n
+        * On-time deliveries \n
+        * Real time tracking \n
+        * Huge database \n
+        * Reduced wastage of man days and efficient     utilisation of truck \n
+        * Faster turnaround time \n
+        * Better and a faster medium \n
+        * Can be availed for different types of cargos and various destinations(PAN INDIA) \n
+        * It creates provision for the service provider on finger tips and vice versa \n
+        * Back loading cargo – END POINT</string>
+
+    <string name="resend_otp">Resend OTP</string>
+
+    <string name="track_trip">Track trip</string>
+
+    <string name="trans_success">The transaction has been completed successfully.</string>
+
+    <string name="trans_id">transaction id : </string>
+
+    <string name="thankyou">THANK YOU FOR CHOOSING WAYSIDE TRUCK FREIGHT</string>
+
+    <string name="request_message_load">Do you really want to request for the load ?</string>
+
+    <string name="show_route">Show Route</string>
+
+    <string name="stop_trip">Stop Trip</string>
+
+    <string name="webdirect"> www.waysidetruckfreight.com</string>
+
+    <string name="driver_number">Driver Number</string>
+
+    <string name="message">The rest of the payment should be dealt between the two parties(cargo provider and truck owner solely).Wayside Truck Freight doesn\'t involve in that transaction.Necessary taxes(GST,TDS, etc.) will applicable as per the government norms.</string>
+
+    <string name="please_select_option">Please select payment option</string>
+
+    <string name="stop_trip_message">Do you want to stop your currently running trip ?</string>
+
+    <string name="any_loads">ANY LOADS</string>
+    <string name="customercare">Customer care number</string>
+
+</resources>

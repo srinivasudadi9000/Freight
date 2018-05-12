@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Profile.BankDetails">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/toolbar" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="@string/owner_detail"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                     >
+
+                <EditText
+                    android:id="@+id/txtOwnerName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:hint="@string/full_name"
+                    android:inputType="textCapSentences"
+                    android:padding="10dp"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/text_size" />
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+                <EditText
+                    android:id="@+id/txtOwnerCity"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:hint="@string/city"
+                    android:inputType="textCapSentences"
+                    android:padding="10dp"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/text_size"/>
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+                <EditText
+                    android:id="@+id/txtOwnerNo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:hint="@string/mob_number"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:padding="10dp"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/text_size"/>
+                </android.support.design.widget.TextInputLayout>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:hint="@string/panadharno"
+                    android:inputType="textCapSentences"
+                    android:padding="10dp"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/text_size" />
+
+                <ImageView
+                    android:id="@+id/imagePan"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/add_photo" />
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+                <EditText
+                    android:id="@+id/txtOwnerAddress"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:hint="@string/owner_address"
+                    android:inputType="textCapSentences"
+                    android:padding="10dp"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/text_size"/>
+                </android.support.design.widget.TextInputLayout>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/Bank_Details"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+                <EditText
+                    android:id="@+id/txtAccName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:hint="@string/account_name"
+                    android:inputType="textCapSentences"
+                    android:padding="10dp"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/text_size"/>
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+                <EditText
+                    android:id="@+id/txtAccNo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:hint="@string/account_no"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/text_size" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/txtIFSCNo"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/border"
+                        android:hint="@string/ifsc"
+                        android:inputType="textCapSentences"
+                        android:padding="10dp"
+                        android:textColor="@color/dark_grey"
+                        android:textSize="@dimen/text_size" />
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+                <EditText
+                    android:id="@+id/txtBankName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="80dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/border"
+                    android:hint="@string/bank_name"
+                    android:inputType="textCapSentences"
+                    android:padding="10dp"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/text_size"/>
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnCancel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginRight="2dp"
+            android:layout_weight="0.5"
+            android:background="@color/colorPrimary"
+            android:text="@string/clear"
+            android:textColor="@color/white" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnSubmit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="0.5"
+            android:background="@color/colorPrimary"
+            android:text="@string/submit"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</RelativeLayout>

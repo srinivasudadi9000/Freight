@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Profile.OrderDetails">
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/toolbar" />
+
+            <TextView
+                android:id="@+id/txtLoadId"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:hint="@string/id"
+                android:padding="5dp"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size" />
+
+            <TextView
+                android:id="@+id/txtDate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:hint="@string/date"
+                android:padding="5dp"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size"/>
+
+            <TextView
+                android:id="@+id/txtTruckRegNumber"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:hint="@string/truck_reg_number"
+                android:padding="5dp"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size" />
+            <TextView
+                android:id="@+id/txtDriverName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:hint="@string/name"
+                android:padding="5dp"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size" />
+            <TextView
+                android:id="@+id/txtTruckDriverNo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:hint="@string/driver_number"
+                android:padding="5dp"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size" />
+            <TextView
+                android:id="@+id/txtFrom"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:hint="@string/from"
+                android:padding="5dp"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size" />
+            <TextView
+                android:id="@+id/txtTo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:hint="@string/to"
+                android:padding="5dp"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size" />
+
+
+            <TextView
+                android:id="@+id/txtTruckType"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:hint="@string/type_of_truck"
+                android:padding="5dp"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size" />
+
+
+            <TextView
+                android:id="@+id/txtWeight"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:hint="@string/weight"
+                android:padding="5dp"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size" />
+
+            <TextView
+                android:id="@+id/txtLoadCategory"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:hint="@string/load_category"
+                android:padding="5dp"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size" />
+
+            <TextView
+                android:id="@+id/txtLoadFlt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:hint="@string/ftl"
+                android:padding="5dp"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size" />
+            <TextView
+                android:id="@+id/txtDescription"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:hint="@string/truck_description"
+                android:padding="5dp"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size"/>
+
+            <TextView
+                android:id="@+id/txtLoaderNumber"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginBottom="50dp"
+                android:hint="@string/mob_number"
+                android:padding="5dp"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size"/>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnStartTrip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="bottom"
+        android:textSize="@dimen/text_size"
+        android:background="@color/colorPrimary"
+        android:text="@string/start_trip"
+        android:textColor="@color/white" />
+</RelativeLayout>
+

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Profile.OrderDetails">
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/toolbar" />
+
+            <TextView
+                android:id="@+id/txtLoadId"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:hint="@string/id"
+                android:padding="5dp"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size" />
+
+            <TextView
+                android:id="@+id/txtDate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:hint="@string/date"
+                android:padding="5dp"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size" />
+
+
+            <TextView
+                android:id="@+id/txtRegTruckNo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:hint="@string/truck_reg_number"
+                android:padding="5dp"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size" />
+
+            <TextView
+                android:id="@+id/txtDriverName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:hint="@string/name"
+                android:padding="5dp"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size"/>
+
+            <TextView
+                android:id="@+id/txtDriverNo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:hint="@string/mob_number"
+                android:padding="5dp"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size" />
+
+            <TextView
+                android:id="@+id/txtFrom"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:hint="@string/from"
+                android:padding="5dp"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size" />
+
+            <TextView
+                android:id="@+id/txtTo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:hint="@string/to"
+                android:padding="5dp"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size"/>
+
+            <TextView
+                android:id="@+id/txtTruckType"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:hint="@string/type_of_truck"
+                android:padding="5dp"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size"/>
+
+            <TextView
+                android:id="@+id/txtLoadCapacityOfTruck"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:hint="@string/load_capacity"
+                android:padding="5dp"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size"/>
+
+            <TextView
+                android:id="@+id/txtWeight"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:hint="@string/weight"
+                android:padding="5dp"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size" />
+
+            <TextView
+                android:id="@+id/txtLoadCategory"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:hint="@string/load_category"
+                android:padding="5dp"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size" />
+
+            <TextView
+                android:id="@+id/txtLoadFlt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:hint="@string/ftl"
+                android:padding="5dp"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size"/>
+
+            <TextView
+                android:id="@+id/txtLoadDesc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:hint="@string/load_description"
+                android:padding="5dp"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size" />
+
+            <TextView
+                android:id="@+id/txtLoaderMobNo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="100dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:hint="@string/mob_number"
+                android:padding="5dp"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size"/>
+
+           <!-- <TextView
+                android:id="@+id/txtTotalCash"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:hint="@string/total_cash"
+                android:padding="5dp"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size" />
+-->
+           <!-- <TextView
+                android:id="@+id/txtRemainingCash"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="80dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:hint="@string/remaining_cash"
+                android:padding="5dp"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size" />-->
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnAddReview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="bottom"
+        android:background="@color/colorPrimary"
+        android:text="@string/add_review"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/white"
+        android:visibility="invisible" />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnCancelOrder"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginRight="2dp"
+            android:layout_weight="0.5"
+            android:background="@color/colorPrimary"
+            android:text="@string/cancel"
+            android:visibility="gone"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/white" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnTrackOrder"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="0.5"
+            android:background="@color/colorPrimary"
+            android:text="@string/track_order"
+            android:visibility="gone"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</RelativeLayout>
